@@ -4,4 +4,3 @@ for numbers in range(0, 100):
         print("0{},".format(numbers), end="")
     else:
         print("{}{}".format(numbers, (", " if numbers < 99 else "\n")), end="")
-
