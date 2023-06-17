@@ -1,0 +1,26 @@
+The ``5-text_indentation`` module
+
+>>> text_indentation = __import__("5-text_indentation").text_indentation
+
+>>> text_indentation()
+Traceback (most recent call last):
+...
+TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+>>> text_indentation(19)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+>>> text_indentation("hola. ")
+hola.
+<BLANKLINE>
+
+>>> text_indentation("hola.")
+hola.
+
+>>> text_indentation("Holberton.school")
+Holberton.
+<BLANKLINE>
+school
+
