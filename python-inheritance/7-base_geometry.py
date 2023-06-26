@@ -3,9 +3,8 @@
 
 
 class BaseGeometry:
-    """Write an empty class BaseGeometry"""
+    """Write a class BaseGeometry"""
     def area(self):
-        """Write a class BaseGeometry (based on 5-base_geometry.py)."""
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
